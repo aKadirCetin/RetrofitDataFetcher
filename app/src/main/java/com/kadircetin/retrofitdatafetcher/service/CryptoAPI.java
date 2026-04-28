@@ -1,9 +1,9 @@
 package com.kadircetin.retrofitdatafetcher.service;
 
-import android.database.Observable;
 
 import com.kadircetin.retrofitdatafetcher.model.CryptoModel;
 
+import io.reactivex.Observable;
 import retrofit2.http.GET;
 import retrofit2.http.Header;
 import retrofit2.http.Query;

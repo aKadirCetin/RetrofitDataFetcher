@@ -44,7 +44,7 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         public void bind(CryptoModel cryptoModel, String[] colors, int position) {
             binding.getRoot().setBackgroundColor(Color.parseColor(colors[position % 8]));
             binding.textName.setText(cryptoModel.currency);
-            binding.textName.setText(cryptoModel.price);
+            binding.textPrice.setText(cryptoModel.price);
         }
     }
 }
